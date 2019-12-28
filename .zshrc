@@ -112,7 +112,8 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# pyenv init
+eval "$(pyenv init -)"
 
-# remove later
-alias this="figlet '$@'"
+# for dotfiles
 alias config='/usr/bin/git --git-dir=/Users/ronakshah/.cfg/ --work-tree=/Users/ronakshah'
